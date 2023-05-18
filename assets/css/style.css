@@ -2,37 +2,60 @@
     padding: 0;
     border: 0;
 }
+header{
+    background-color: rgb(148, 174, 119);
+    color: aliceblue;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
 
 .logo{
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo img{
-    width: 300px;
+    width: 200px;
 
 }
-
-.buscador{
-    padding-top: 30px;
+.container{
     display: flex;
+    width: 100%;
     justify-content: center;
-    margin: 0;}
+}
 
-    .lista{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-row-gap: 50px;
-        padding-top: 30px;
-        margin-left: 9%;
-    }
+
+
+section .taza{
+    margin: 40px;
+    font-size: 20px;
+    display: flex;
+    background-color: rgb(168, 192, 175);
+    border-radius: 20px;
+}
+.taza button{
+    background-color: beige;
+}
+
+.taza button p{
+    font-size: larger;
+    padding: 10px;
     
-    .card h1{
-        text-align: center;
-        text-transform: capitalize;
-    }
+   
+}
+.cambio{
+        margin: 20px;
+}
+
+.container div input{
     
-    .card-body{
-        display: grid;    
-    }
+    margin: 5px;
+    background-color: rgb(174, 199, 186);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
